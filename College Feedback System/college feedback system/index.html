@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="carousel.css" media="all">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="font.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+            <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous">
+            <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+            <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+            <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+            <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/dt-1.11.3/datatables.min.css" /> -->
+            <link rel="stylesheet" type="text/css" href="datatables.min.css">
+            <link rel="shortcut icon" type="image/jpg" href="images/favicon.png">
+        
+            <style>
+                @media only screen and (max-width:414px) {
+                    .banner-63381 {
+                        background-image: url(images/slide-02_mobile.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:768px) {
+                    .banner-63381 {
+                        background-image: url(images/slide-02.jpg);
+        
+                    }
+                }
+        
+                @media only screen and (max-width:1280px) {
+                    .banner-63381 {
+                        background-image: url(images/slide-02.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1281px) and (max-width:1600px) {
+                    .banner-63381 {
+                        background-image: url(images/slide-02.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1601px) {
+                    .banner-63381 {
+                        background-image: url(images/slide-02.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:640px) and (orientation:portrait) {
+                    .banner-mobile .banner-63381 {
+                        background-image: url(images/slide-02.jpg);
+                    }
+                }
+        
+                /* slide 04 */
+                @media only screen and (max-width:414px) {
+                    .banner-59889 {
+                        background-image: url(images/slide-03_mobile.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:768px) {
+                    .banner-59889 {
+                        background-image: url(images/slider3.jpg);
+        
+                    }
+                }
+        
+                @media only screen and (max-width:1280px) {
+                    .banner-59889 {
+                        background-image: url(images/slider3.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1281px) and (max-width:1600px) {
+                    .banner-59889 {
+                        background-image: url(images/slider3.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1601px) {
+                    .banner-59889 {
+                        background-image: url(images/slider3.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:640px) and (orientation:portrait) {
+                    .banner-mobile .banner-59889 {
+                        background-image: url(images/slide-03_mobile.jpg);
+                    }
+                }
+        
+                /* slide-05 */
+                @media only screen and (max-width:414px) {
+                    .banner-59890 {
+                        background-image: url(images/slide-06_mobile.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:768px) {
+                    .banner-59890 {
+                        background-image: url(images/slide-05.jpg);
+        
+                    }
+                }
+        
+                @media only screen and (max-width:1280px) {
+                    .banner-59890 {
+                        background-image: url(images/slide-05.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1281px) and (max-width:1600px) {
+                    .banner-59890 {
+                        background-image: url(images/slide-05.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1601px) {
+                    .banner-59890 {
+                        background-image: url(images/slide-05.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:640px) and (orientation:portrait) {
+                    .banner-mobile .banner-59890 {
+                        background-image: url(images/slide-05_mobile.jpg);
+                    }
+                }
+        
+                /* slide -06 */
+                @media only screen and (max-width:414px) {
+                    .banner-59891 {
+                        background-image: url(images/slide-06_mobile.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:768px) {
+                    .banner-59891 {
+                        background-image: url(images/slide-06.jpg);
+        
+                    }
+                }
+        
+                @media only screen and (max-width:1280px) {
+                    .banner-59891 {
+                        background-image: url(images/slide-06.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1281px) and (max-width:1600px) {
+                    .banner-59891 {
+                        background-image: url(images/slide-06.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1601px) {
+                    .banner-59891 {
+                        background-image: url(images/slide-06.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:640px) and (orientation:portrait) {
+                    .banner-mobile .banner-59891 {
+                        background-image: url(images/slide-06_mobile.jpg);
+                    }
+                }
+        
+                /* sllide 2 */
+        
+                @media only screen and (max-width:414px) {
+                    .banner-59032 {
+                        /* background-image: url(images/slide-04.jpg); */
+                    }
+                }
+        
+                @media only screen and (max-width:768px) {
+                    .banner-59032 {
+                        background-image: url(images/slide-04.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:1280px) {
+                    .banner-59032 {
+                        background-image: url(images/slide-04.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1281px) and (max-width:1600px) {
+                    .banner-59032 {
+                        background-image: url(images/slide-04.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1601px) {
+                    .banner-59032 {
+                        background-image: url(images/slide-041.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:640px) and (orientation:portrait) {
+                    .banner-mobile .banner-59032 {
+                        background-image: url(images/04mobile1.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:414px) {
+                    .banner-59881 {
+                        background-image: url(images/slider-01.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:768px) {
+                    .banner-59881 {
+                        background-image: url(images/slider-01.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:1280px) {
+                    .banner-59881 {
+                        background-image: url(images/slide-01.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1281px) and (max-width:1600px) {
+                    .banner-59881 {
+                        background-image: url(images/slide-01.jpg);
+                    }
+                }
+        
+                @media only screen and (min-width:1601px) {
+                    .banner-59881 {
+                        background-image: url(images/slide-01.jpg);
+                    }
+                }
+        
+                @media only screen and (max-width:640px) and (orientation:portrait) {
+                    .banner-mobile .banner-59881 {
+                        background-image: url(images/slider-01_mobile.jpg);
+                    }
+                }
+                
+                .blink_me {
+                    color:gold;
+                    font-style:italic;
+           animation: blinker 1s linear infinite;
+        }
+        
+        @keyframes blinker {  
+           50% { opacity: 0; }
+        }
+            </style>
+        </head>
+
+    </head>
+    <body>
+        
+<!-- Section 1 -->
+<section class="w-full px-6 pb-12 antialiased bg-white">
+    <div class="mx-auto max-w-7xl">
+
+        <nav class="relative z-50 h-24 select-none" x-data="{ showMenu: false }">
+            <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium border-b border-gray-200 md:overflow-visible lg:justify-center sm:px-4 md:px-2">
+                <div class="flex items-center justify-start w-1/4 h-full pr-4">
+                    <a href="#_" class="inline-block py-4 md:py-0">
+                    </a>
+                </div>
+                <div class="top-0 left-0 items-start hidden w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex fixed': showMenu, 'hidden': !showMenu }">
+                    <div class="flex-col w-full h-auto overflow-hidden bg-white rounded-lg md:bg-transparent md:overflow-visible md:rounded-none md:relative md:flex md:flex-row">
+                
+                        <div class="flex flex-col items-start justify-center w-full space-x-6 text-center lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
+                            <a href="#_" class="inline-block w-full py-2 mx-0 ml-6 font-medium text-left text-indigo-600 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Home</a>
+                            <a href="#_" class="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Features</a>
+                            <a href="#_" class="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Blog</a>
+                            <a href="#_" class="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center">Contact</a>
+                            <a href="#_" class="absolute top-0 left-0 hidden py-2 mt-6 ml-10 mr-2 text-gray-600 lg:inline-block md:mt-0 md:ml-2 lg:mx-3 md:relative">
+                                <svg class="inline w-5 h-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            </a>
+                        </div>
+                        <div class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
+                            <a href="#" class="w-full px-6 py-2 mr-0 text-gray-700 md:px-0 lg:pl-2 md:mr-4 lg:mr-5 md:w-auto">Sign In</a>
+                            <a href="#_" class="inline-flex items-center w-full px-6 py-3 text-sm font-medium leading-4 text-white bg-indigo-600 md:px-3 md:w-auto md:rounded-full lg:px-5 hover:bg-indigo-500 focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-indigo-600">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div @click="showMenu = !showMenu" class="absolute right-0 flex flex-col items-center items-end justify-center w-10 h-10 bg-white rounded-full cursor-pointer md:hidden hover:bg-gray-100">
+                    <svg class="w-6 h-6 text-gray-700" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" x-cloak="">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg class="w-6 h-6 text-gray-700" x-show="showMenu" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" x-cloak="">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Hero Content -->
+        <h1 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl text-center">
+            <span class="block xl:inline">Computer Science</span>
+            <span class="block text-indigo-600 xl:inline">& Engineering
+            </span>
+          </h1>
+        <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
+
+            <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
+                <div class="flex flex-wrap items-center sm:-mx-3">
+                  <div class="w-full md:w-1/2 md:px-3">
+                    <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
+                      <h1 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl">
+                        <span class="block xl:inline">CSE</span>
+                        <span class="block text-indigo-600 xl:inline">Department
+                        </span>
+                      </h1>
+                      <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">Computer Science and Engineering (CSE) is an academic program at many universities which comprises scientific and engineering aspects of computing. CSE is also a term often used in Europe to translate the name of engineering informatics academic programs. It is offered in both Undergraduate as well Postgraduate with specializations.</p>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2">
+                    <div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                        <img src="https://www.sharda.ac.in/blog/wp-content/uploads/2020/03/Image-1.jpg">
+                      </div>
+                  </div>
+                </div>
+              </div>
+              
+
+            
+        <!-- End Main Hero Content -->
+
+    </div>
+
+
+    <h1 class="text-2xl font-extrabold text-gray-900 sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl">
+        <span class="block xl:inline">Department</span>
+        <br>
+        <span class="block text-indigo-600 xl:inline">Welcome Note by the Department - HOD.
+        </span>
+      </h1>
+      <p class=" text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-7xl">Department of CSE is equipped with specialisations like CSE (AI&ML),CSE(Data Science),CSE(Cyber Security) and widely recognized as an essential source and technique for the advancements in all spheres of human endeavour now and in future. In SVCE all the students get the opportunity to excel in their academic activities. This is the department where students publish papers in international journals, at the same time a student wishing to achieve some recognition in extra-curricular or co-curricular activities will also find the atmosphere helpful. Among the reasons why our graduates are such favorites of industry is the consistent hands-on experience-based approach of our curriculum, our excellent laboratories, the long-time connections between Department and the industry.</p>
+    
+      <section class="dept_section_2 dept_section_4">
+        <div class="container">
+            <div class="row">
+                <div class=" col dept_sect_left">
+                    <h1 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl">
+                        <span class="block xl:inline">Program</span>
+                        <span class="block text-indigo-600 xl:inline">outcomes
+                        </span>
+                      </h1>
+                    <hr>
+                    <div class="mt-md-3">
+                        <ul>
+                            <li><strong>ENGINEERING KNOWLEDGE:-</strong> Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.
+                            </li>
+                            <li><strong> PROBLEM ANALYSIS: -</strong> Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+                            </li>
+                            <li><strong> DESIGN/DEVELOPMENT OF SOLUTIONS: -</strong> Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.
+                            </li>
+                            <li><strong> CONDUCT INVESTIGATIONS OF COMPLEX PROBLEMS: -</strong> Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
+                            </li>
+                            <li><strong> MODERN TOOL USAGE: -</strong> Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.</li>
+                            <li><strong> THE ENGINEER AND SOCIETY: -</strong> Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.
+                            </li>
+                            <li><strong> ENVIRONMENT AND SUSTAINABILITY: -</strong> Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.
+    
+                            </li>
+                            <li><strong> ETHICS: -</strong> Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.
+    
+    
+                            </li>
+                            <li><strong> INDIVIDUAL AND TEAM WORK: -</strong> Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+    
+    
+                            </li>
+                            <li><strong> COMMUNICATION: -</strong> Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+    
+    
+                            </li>
+                            <li><strong> PROJECT MANAGEMENT AND FINANCE: -</strong> Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+    
+                            </li>
+                            <li><strong>LIFE-LONG LEARNING: -</strong> Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+    
+                            </li>
+    
+                        </ul>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="cs_department_labs">
+        <div class="section_admission_4_title container">
+            <h1 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl">
+                <span class="block xl:inline">Department</span>
+                <span class="block text-indigo-600 xl:inline">Labs
+                </span>
+              </h1>
+            
+        </div>
+        <div class="container section_department_content mt-5">
+            <div class="row">
+                <div class="col-lg-6 col section_department_content_left">
+                    <ul>
+                        <li>Problem Solving using C Lab</li>
+                        <li>IT Workshop</li>
+                        <li>Data Structures Lab</li>
+                        <li>Database Management Systems Lab</li>
+                        <li>Object Oriented Programming using JAVA Lab</li>
+                        <li>Software Engineering Lab</li>
+                        <li>Design and Analysis of Algorithms Lab</li>
+                        <li>Operating Systems Lab</li>
+                        <li>Artificial Intelligence &amp; Computer Networks Lab</li>
+                        <li>Object Oriented Analysis Design &amp; Testing Lab</li>
+                        <li>Big Data Analytics Lab</li>
+                        <li>Grid &amp; Cloud Computing Lab</li>
+                        <li>Mobile Application Development Lab</li>
+                    </ul>
+                </div>
+                
+            </div>
+    
+        </div>
+    </section>
+
+
+<section class="py-8 leading-7 text-gray-900 bg-white sm:py-12 md:py-16 lg:py-24">
+    <div class="max-w-6xl px-4 px-10 mx-auto border-solid lg:px-12">
+        <div class="flex flex-col items-start leading-7 text-gray-900 border-0 border-gray-200 lg:items-center lg:flex-row">
+            <div class="box-border flex-1 text-center border-solid sm:text-left">
+                <h2 class="m-0 text-4xl font-semibold leading-tight tracking-tight text-left text-black border-0 border-gray-200 sm:text-5xl">
+                    College Feedback
+                </h2>
+                <p class="mt-2 text-xl text-left text-gray-900 border-0 border-gray-200 sm:text-2xl">
+                    Student Feedback System for college students have been developed which aims to rate and analyse the college performance.
+                </p>
+            </div>
+            <a href="feedback.html" class="inline-flex items-center justify-center w-full px-5 py-4 mt-6 ml-0 font-sans text-base leading-none text-white no-underline bg-indigo-600 border border-indigo-600 border-solid rounded cursor-pointer md:w-auto lg:mt-0 hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-indigo-700 focus-within:text-white sm:text-lg lg:ml-6 md:text-xl">
+                Give Feedback
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+      
+<!-- Section 3 -->
+<section class="text-gray-700 bg-white body-font">
+    <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
+        <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Facebook</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Instagram</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Twitter</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">GitHub</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Dribbble</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </span>
+    </div>
+</section>
+
+<script src="main.js"></script>
+<script src="jquery.js"></script>
+<!-- <script src="./css/jquery.js"></script> -->
+<script src="multi-animated-counter.js"></script>
+<script src="https://cdn.tiny.cloud/1/nojue6ao3d2p9sgghw1uon9zpzt08vmpubpn74g1cho8ijq6/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- <script src="https://kit.fontawesome.com/d5ba7033a0.js" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/dt-1.11.3/datatables.min.js"></script> -->
+
+<script type="text/javascript" src="datatables.min.js"></script>
+
+<script>
+    $(document).ready(function(event) {
+        $('#myTable').DataTable();
+        $('#myTables').DataTable();
+        $('#myTabless').DataTable();
+        $('#successmessage').hide();
+        $('#fupForm').on('submit', function(event) {
+            event.preventDefault();
+            var btn = document.getElementById('submit_button');
+            btn.disabled = true;
+            var branch = $('#branh_id').val();
+            $.ajax({
+                type: 'POST',
+                url: 'email.php',
+                data: new FormData(this),
+                contentType: false,
+                cache: false,
+                processData: false,
+                success: function(data) {
+                    // alert(data);
+                    $('#successmessage').show();
+                    $('.successmessagetext').html(data);
+                    // window.location.reload();
+                    btn.disabled = false;
+                    $("#fupForm")[0].reset();
+
+                }
+            });
+        });
+
+
+        $('.mobileToggle').click(function() {
+            $('.collapsedbox').toggleClass('mobile_active_class');
+        })
+
+        $('.campusupdate_hide_item0').hide();
+        $('.campusupdate_hide_item1').hide();
+        $('.campusupdate_hide_item_2').hide();
+        $('.campusupdate_hide_item3').hide();
+        $('.campusupdate_hide_item4').hide();
+        $('.campusupdate_hide_item5').hide();
+          $('.campusupdate_hide_item6').hide();
+        $('.campusupdate_hide_item7').hide();
+        $('.campusupdate_hide_item8').hide();
+
+
+        $('.placement_hide_item').hide();
+
+
+        $('.viewbutton').click(function() {
+            var teams = $(".viewbutton").html();
+            $('.placement_hide_item').slideToggle();
+
+
+            if (teams == "View More") {
+                $(".viewbutton").html("View Less");
+            } else {
+                $(".viewbutton").html("View More");
+            }
+        })
+
+        $('.readmore_button0').click(function() {
+            var teams = $(".readmore_button0").html();
+            $('.campusupdate_hide_item0').slideToggle();
+
+
+            if (teams == "Read more") {
+                $(".readmore_button0").html("Read less");
+            } else {
+                $(".readmore_button0").html("Read more");
+            }
+        })
+        $('.readmore_button1').click(function() {
+            var teams = $(".readmore_button1").html();
+            $('.campusupdate_hide_item1').slideToggle();
+            if (teams == "Read more") {
+
+                $(".readmore_button1").html("Read less");
+            } else {
+                $(".readmore_button1").html("Read more");
+            }
+        })
+        $('.readmore_button_2').click(function() {
+            var teams2 = $(".readmore_button_2").html();
+            $('.campusupdate_hide_item_2').slideToggle();
+            if (teams2 == "Read more") {
+                console.log(teams2)
+                $(".readmore_button_2").html("Read less");
+            } else {
+                $(".readmore_button_2").html("Read more");
+            }
+        })
+        $('.readmore_button3').click(function() {
+            var teams = $(".readmore_button3").html();
+            $('.campusupdate_hide_item3').slideToggle();
+            if (teams == "Read more") {
+
+                $(".readmore_button3").html("Read less");
+            } else {
+                $(".readmore_button3").html("Read more");
+            }
+        })
+        $('.readmore_button4').click(function() {
+            var teams = $(".readmore_button4").html();
+            $('.campusupdate_hide_item5').slideToggle();
+            if (teams == "Read more") {
+
+                $(".readmore_button4").html("Read less");
+            } else {
+                $(".readmore_button4").html("Read more");
+            }
+        })
+        $('.readmore_button5').click(function() {
+            var teams = $(".readmore_button5").html();
+            $('.campusupdate_hide_item4').slideToggle();
+            if (teams == "Read more") {
+
+                $(".readmore_button5").html("Read less");
+            } else {
+                $(".readmore_button5").html("Read more");
+            }
+        })
+        
+              $('.readmore_button6').click(function() {
+            var teams = $(".readmore_button6").html();
+            $('.campusupdate_hide_item6').slideToggle();
+            if (teams == "Read more") {
+
+                $(".readmore_button6").html("Read less");
+            } else {
+                $(".readmore_button6").html("Read more");
+            }
+        })
+        $('.readmore_button7').click(function() {
+            var teams = $(".readmore_button7").html();
+            $('.campusupdate_hide_item7').slideToggle();
+            if (teams == "Read more") {
+
+                $(".readmore_button7").html("Read less");
+            } else {
+                $(".readmore_button7").html("Read more");
+            }
+        })
+        $('.readmore_button8').click(function() {
+            var teams = $(".readmore_button8").html();
+            $('.campusupdate_hide_item8').slideToggle();
+            if (teams == "Read more") {
+
+                $(".readmore_button8").html("Read less");
+            } else {
+                $(".readmore_button8").html("Read more");
+            }
+        })
+
+        $('.campuscarousel').owlCarousel({
+            loop: true,
+            nav: false,
+            dots: true,
+            items: 1,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true
+        })
+
+
+
+        tinymce.init({
+            selector: '#mytextarea'
+        });
+
+
+
+
+
+
+
+        $('#btns').click(function() {
+            $('.mobile_nav').toggleClass('mobile_nav_active');
+            $(this).find('i').toggleClass('bi bi-list bi bi-x')
+        })
+
+        $(window).scroll(function() {
+            $('.main_nav').toggleClass('main_nav_scrolled', $(this).scrollTop() > 200)
+            $('.small_nav').toggleClass('navboxs_scrolled', $(this).scrollTop() > 200)
+            $('.sub_nav').toggleClass('subnav_scrolled', $(this).scrollTop() > 200).slideDown();
+            // $('.mobile_nav').toggleClass('scrolled', $(this).scrollTop() > 200)
+        })
+
+        const currentLocation = location.href;
+        const menuItem = document.querySelectorAll('.navItem');
+        const menuLength = menuItem.length;
+
+        for (let i = 0; i < menuLength; i++) {
+            if (menuItem[i].href === currentLocation) {
+                menuItem[i].className = "active"
+            }
+        }
+
+        const nextIcon = '<i class="bi bi-arrow-right"></i>';
+        const prevIcon = '<i class="bi bi-arrow-left"></i>';
+
+        // section-3 slider
+        var swiper = new Swiper('#section3_slider', {
+            // slidesPerView: 4,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                // nextEl: '#gm',
+                prevEl: '#gm',
+                nextEl: '#mg',
+            },
+            breakpoints: {
+                500: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    pagination: false,
+
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 10,
+                    nav: false,
+                },
+            }
+        });
+
+        // testimonial slider
+        var swiper = new Swiper('#testimonial_slider', {
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-paginationss',
+                clickable: true,
+            },
+            navigation: {
+                // nextEl: '#all',
+                nextEl: '#bll',
+                prevEl: '#all',
+            },
+            breakpoints: {
+                500: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    pagination: false,
+
+                },
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                1024: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    nav: true,
+                },
+            }
+        });
+
+        // achievement slider
+        var swiper = new Swiper('#achievement_slider', {
+            spaceBetween: 30,
+            loop: true,
+            // autoHeight: true,
+            pagination: {
+                el: '.swiper-paginationsss',
+                clickable: true,
+            },
+            navigation: {
+                // nextEl: '#alll',
+                nextEl: '#blll',
+                prevEl: '#alll',
+            },
+            breakpoints: {
+                500: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    pagination: false,
+
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                    nav: true,
+                },
+            }
+        });
+
+        // capmus update slider
+        var swiper = new Swiper('#campusupdates', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+
+            pagination: {
+                el: '.swiper-paginations',
+                clickable: true,
+            },
+            navigation: {
+                // nextEl: '#al',
+                nextEl: '#bl',
+                prevEl: '#al',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                    loop: true,
+                },
+            }
+        });
+        $('.count').each(function() {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 6000,
+                easing: 'swing',
+                step: function(now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+        // $(window).scroll(function() {
+        //     var hT = $('#campuslife').offset().top,
+        //         hH = $('#campuslife').outerHeight(),
+        //         wH = $(window).height(),
+        //         wS = $(this).scrollTop();
+        //     if (wS > (hT + hH - wH)) {
+        //         $('.count').each(function() {
+        //             $(this).prop('Counter', 0).animate({
+        //                 Counter: $(this).text()
+        //             }, {
+        //                 duration: 2000,
+        //                 easing: 'swing',
+        //                 step: function(now) {
+        //                     $(this).text(Math.ceil(now));
+        //                 }
+        //             });
+        //         });
+        //     }
+        // });
+
+        // Department Lab slider
+        var swiper = new Swiper('#labs_carousel', {
+            spaceBetween: 20,
+
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                500: {
+                    slidesPerView: 1,
+                    // spaceBetween: 30,
+                    pagination: true,
+
+
+                },
+                768: {
+                    slidesPerView: 1,
+                    // spaceBetween: 10,
+
+                },
+                1024: {
+                    slidesPerView: 1,
+                    // spaceBetween: 10,
+                    // nav: true,
+
+                },
+            }
+        });
+
+
+        // testimonial slider
+        var swiper = new Swiper('#stories_slider', {
+            spaceBetween: 30,
+            loop: true,
+            // autoHeight: true,
+            pagination: {
+                el: '.swiper-paginationss',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '#alls',
+                prevEl: '#blls',
+            },
+            breakpoints: {
+                500: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    pagination: false,
+                    effect: "slide",
+
+                },
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                1024: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    nav: true,
+                    effect: "fade",
+                },
+            }
+        });
+        // testimonial slider
+        var swiper = new Swiper('#news_slider', {
+            spaceBetween: 30,
+            loop: true,
+
+            pagination: {
+                el: '.swiper-paginationss',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '#alls',
+                prevEl: '#blls',
+            },
+            breakpoints: {
+                500: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    pagination: false,
+                    effect: "slide",
+
+                },
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                1024: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    nav: true,
+                    effect: "fade",
+                },
+            }
+        });
+
+    });
+</script>
+
+</body>
+
+</html>
+
+    </body>
+</html>
